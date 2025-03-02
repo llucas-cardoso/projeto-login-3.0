@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "media-query.css" media="all">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="container-login">
+            <div class="image-box">
+                <img src="assets/imagens/login.svg" alt="login">
+            </div>
+
+            <div class="form-box">
+                <h1>Login</h1>
+                <form action="" method="post" autocomplete="on">
+                    <div class="input-box">
+                        <label for="ilogin">Email</label>
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="isenha">Password</label>
+                        <input type="password" name="login" id="isenha" placeholder="*********" required maxlength="30"
+                            minlength="8">
+                    </div>
+
+                    <div class="remember">
+                        
+                        <label> <input type="checkbox" name="remember" id="iremember"> Manter conectado</label>
+                        <p> <a href="#" class="botao">Esqueci minha senha</a> </p>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div class="input-box">
+                        <p>Não tem uma conta? <a href="#">Inscreva-se</a></p>
+                    </div>
+                </form>
+                <h2>Fazer login com:</h2>
+                <ul class="other-login">
+                    <li><img src="assets/imagens/facebook.png" alt="Facebook"></li>
+                    <li><img src="assets/imagens/google.png" alt="Google"></li>
+                    <li><img src="assets/imagens/apple.png" alt="Apple"></li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
